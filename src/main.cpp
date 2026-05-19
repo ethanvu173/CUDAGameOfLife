@@ -8,7 +8,7 @@
 #define WIDTH 1024 
 #define HEIGHT 1024
 typedef enum {CPU, GPU} mode;
-mode MODE = GPU;  // Change this from CPU to GPU to change the mode
+mode MODE = CPU;  // Change this from CPU to GPU to change the mode
 
 
 // Use two grids to avoid reading and writing to the same grid.
@@ -47,7 +47,7 @@ int main() {
     // Even number indicates processing using global memory (slow)
     // Odd number indicates processing using shared memory (faster)
     int gpu_mode = 0;
-    
+
     // Randomly assign ~33% of cells to be alive
     std::mt19937 rng(42);
     // Adjust distribution range to change portion of alive cells
