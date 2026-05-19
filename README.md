@@ -1,5 +1,5 @@
 # CUDA Game of Life
-A project to familiarize myself with the CUDA toolkit. Play Conway's Game of Life using both processing on the CPU and on the GPU with CUDA.
+A project to explore the CUDA toolkit. Play Conway's Game of Life using both processing on the CPU and on the GPU with CUDA.
 ## Requirements
 - CUDA-capable GPU
 - [CUDA Toolkit 13+](https://developer.nvidia.com/cuda-downloads)
